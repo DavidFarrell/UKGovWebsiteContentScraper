@@ -1,0 +1,123 @@
+
+=== Starting Processing ===
+Source articles loaded: 157
+
+Batch 1 complete:
+Articles processed: 10
+Snippets in this batch: 6
+Total snippets created: 62
+Batch processing time: 97.1s (9.7s per article)
+Waiting for rate limit...
+
+Batch 2 complete:
+Articles processed: 20
+Snippets in this batch: 6
+Total snippets created: 112
+Batch processing time: 86.3s (8.6s per article)
+Waiting for rate limit...
+
+Batch 3 complete:
+Articles processed: 30
+Snippets in this batch: 3
+Total snippets created: 176
+Batch processing time: 97.1s (9.7s per article)
+Waiting for rate limit...
+
+Batch 4 complete:
+Articles processed: 40
+Snippets in this batch: 8
+Total snippets created: 235
+Batch processing time: 112.2s (11.2s per article)
+Waiting for rate limit...
+
+Batch 5 complete:
+Articles processed: 50
+Snippets in this batch: 6
+Total snippets created: 335
+Batch processing time: 157.4s (15.7s per article)
+Waiting for rate limit...
+
+Batch 6 complete:
+Articles processed: 60
+Snippets in this batch: 7
+Total snippets created: 429
+Batch processing time: 149.7s (15.0s per article)
+Waiting for rate limit...
+
+Batch 7 complete:
+Articles processed: 70
+Snippets in this batch: 4
+Total snippets created: 520
+Batch processing time: 137.0s (13.7s per article)
+Waiting for rate limit...
+
+Batch 8 complete:
+Articles processed: 80
+Snippets in this batch: 21
+Total snippets created: 609
+Batch processing time: 135.9s (13.6s per article)
+Waiting for rate limit...
+
+Batch 9 complete:
+Articles processed: 90
+Snippets in this batch: 2
+Total snippets created: 689
+Batch processing time: 143.1s (14.3s per article)
+Waiting for rate limit...
+
+Batch 10 complete:
+Articles processed: 100
+Snippets in this batch: 4
+Total snippets created: 793
+Batch processing time: 168.5s (16.8s per article)
+Waiting for rate limit...
+
+Batch 11 complete:
+Articles processed: 110
+Snippets in this batch: 7
+Total snippets created: 866
+Batch processing time: 153.3s (15.3s per article)
+Waiting for rate limit...
+
+Batch 12 complete:
+Articles processed: 120
+Snippets in this batch: 6
+Total snippets created: 951
+Batch processing time: 141.5s (14.2s per article)
+Waiting for rate limit...
+
+Batch 13 complete:
+Articles processed: 130
+Snippets in this batch: 9
+Total snippets created: 1061
+Batch processing time: 170.8s (17.1s per article)
+Waiting for rate limit...
+
+Batch 14 complete:
+Articles processed: 140
+Snippets in this batch: 1
+Total snippets created: 1153
+Batch processing time: 158.0s (15.8s per article)
+Waiting for rate limit...
+
+Batch 15 complete:
+Articles processed: 150
+Snippets in this batch: 10
+Total snippets created: 1247
+Batch processing time: 148.9s (14.9s per article)
+Waiting for rate limit...
+
+Batch 16 complete:
+Articles processed: 157
+Snippets in this batch: 9
+Total snippets created: 1293
+Batch processing time: 61.1s (8.7s per article)
+
+=== Processing Complete ===
+Source articles: 157
+Articles rewritten: 157
+Total snippets created: 1293
+Average snippets per article: 8.2
+Total processing time: 2136.3s
+Average time per article: 13.5s
+Output saved to: ./data/gov_pages_with_synthetic_content.json

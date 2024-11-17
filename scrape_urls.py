@@ -5,54 +5,16 @@ import sys
 import requests
 from pathlib import Path
 from typing import List, Optional, Dict, Any, Tuple
-from pydantic import BaseModel, Field
 from datetime import datetime
 import time
 import logging
 import html2text
 import json
+from models import GovPage, GovPageDetails, GovPageLink, GovPageLinks
 
 # Add at top of file after imports
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
-
-class GovPageDetails(BaseModel):
-    body: Optional[str] = None
-    external_related_links: List[Any] = []
-    current: Optional[bool] = None
-    ended_on: Optional[str] = None
-    parts: Optional[List[Any]] = None
-    
-    # Add any other fields you want to capture from details
-    # You might want to create specific models for different document types
-
-class GovPageLink(BaseModel):
-    title: str
-    base_path: str
-    api_path: str
-    web_url: str
-    locale: str = "en"
-
-class GovPageLinks(BaseModel):
-    organisations: Optional[List[GovPageLink]] = []
-    parent: Optional[List[GovPageLink]] = []
-    available_translations: Optional[List[GovPageLink]] = []
-
-class GovPage(BaseModel):
-    title: str
-    base_path: str
-    content_id: str
-    description: Optional[str] = None
-    document_type: str
-    schema_name: str
-    locale: str = "en"
-    api_path: Optional[str] = None
-    web_url: Optional[str] = None
-    details: GovPageDetails
-    links: GovPageLinks
-    public_updated_at: Optional[datetime] = None
-    first_published_at: Optional[datetime] = None
-    withdrawn: bool = False
 
 def load_data(file_path: str) -> pd.DataFrame:
     """Load data from CSV file."""
